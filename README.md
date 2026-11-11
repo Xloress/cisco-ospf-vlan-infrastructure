@@ -91,7 +91,8 @@ Untuk memvalidasi keandalan jaringan terhadap potensi putusnya kabel (*link fail
 
 ```text
 ├── docs/
-│   └── Laporan_Praktikum_OSPF_VLAN_Kelompok2.pdf   # Laporan resmi lengkap praktikum (PDF)
+│   ├── Laporan_Praktikum_OSPF_VLAN_Kelompok2.pdf   # Laporan resmi lengkap praktikum (PDF)
+│   └── TUTORIAL_PNETLAB_OSPF.md                   # Panduan konfigurasi step-by-step pemula
 ├── configs/
 │   ├── R-CORE-3_Azlan.cfg                         # Running-configuration Router R-CORE-3 (Azlan)
 │   └── SW-HRD_Azlan.cfg                          # Running-configuration Switch SW-HRD (Azlan)
@@ -129,3 +130,11 @@ interface Ethernet0/0
  ip ospf priority 100
  no shutdown
 ```
+
+---
+
+## 📖 Panduan Replikasi Laboratorium Lengkap
+
+Untuk panduan konfigurasi menyeluruh langkah demi langkah (*step-by-step*) dari pemasangan image Cisco IOL hingga pengujian failover jalur data, silakan baca buku panduan:  
+👉 **[docs/TUTORIAL_PNETLAB_OSPF.md](docs/TUTORIAL_PNETLAB_OSPF.md)**
+
